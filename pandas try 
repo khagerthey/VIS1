@@ -1,0 +1,94 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNut4vmcheuPeGeAZZH3Hlm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/khagerthey/VIS1/blob/main/pandas%20try%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "AEk-AheeskG1"
+      },
+      "outputs": [],
+      "source": [
+        "import pandas as pd"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "import matplotlib.pyplot as plt #import pylab as plt #apparently discouraged now: \n",
+        " #https://stackoverflow.com/questions/11469336/what-is-the-difference-between-pylab-and-pyplot\n",
+        " #https://www.tutorialspoint.com/matplotlib/matplotlib_pylab_module.htm\n",
+        "\n",
+        "import pandas as pd\n",
+        "import pandas_datareader as pdr\n",
+        "from pandas_datareader import wb\n",
+        "from pandas.io.formats.style import Styler\n",
+        "#s4 = Styler(df4, uuid_len=0, cell_ids=False)\n",
+        "\n",
+        "import urllib  #weird, guess need to have os and pandas imported for this to work                                                  \n",
+        "\n",
+        "from google.colab import files                                   \n",
+        "\n",
+        "from IPython.core.interactiveshell import InteractiveShell\n",
+        "InteractiveShell.ast_node_interactivity = \"all\""
+      ],
+      "metadata": {
+        "id": "YSGgPaRds5S1"
+      },
+      "execution_count": 5,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "glass=pd.read_csv('https://raw.githubusercontent.com/khagerthey/VIS1/main/Glass%20price%20%25%20-%20Glass%20pri"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 133
+        },
+        "id": "bmUGkEsFsvqV",
+        "outputId": "057882fd-1c07-439f-c5c9-0d77a782b7fc"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-6-24dcae2276e5>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    glass=pd.read_csv('https://raw.githubusercontent.com/khagerthey/VIS1/main/Glass%20price%20%25%20-%20Glass%20pri\u001b[0m\n\u001b[0m                                                                                                                   ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m EOL while scanning string literal\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
