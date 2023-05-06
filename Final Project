@@ -26,38 +26,6 @@
       ]
     },
     {
-      "cell_type": "markdown",
-      "source": [
-        "PRESENTATION \n",
-        "Yay very good to present to stakeholders\n",
-        "Yes data should be vital to running the organization\n",
-        "Again if vis are kept in a drawer it doesn't make sense\n",
-        "\n",
-        "Percentages--calc in python!\n",
-        "\n",
-        "Yes be critical! If sth looks out of place, maybe a mistake\n",
-        "\n",
-        "Sankey--fine; and could play more like that Napoleon graph i showed in class \n",
-        "\n",
-        "Yes finding of need for better data is a finding!\n",
-        "\n",
-        "I like the last graph useful and simple.\n",
-        "Could also do it by where damage happens eg one for dud collector, one for depalarizer, etc\n",
-        "\n",
-        "And they do go together as expected but not always like month 3 less relationship blue and green lines\n",
-        "\n",
-        "Ya like Erik says look at temperature! Your hypothesis is thermal shock, but you didn't really test it, like need temperature \n",
-        "\n",
-        "Right and other stuff like speed! Try measure everything you discuss\n",
-        "\n",
-        "CODE\n",
-        "yes why just line 3, could compare to other lines; again in general the more data the better "
-      ],
-      "metadata": {
-        "id": "feYFAyCSGZJ8"
-      }
-    },
-    {
       "cell_type": "code",
       "execution_count": 1,
       "metadata": {
